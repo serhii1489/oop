@@ -2,6 +2,11 @@ public class Doctor extends People implements Info{
 
     private String specialization;
 
+    @Override
+    public void ask() {
+        System.out.println("Howe are you?");
+    }
+
     public Doctor(String name, String surname, int age) {
         super(name, surname, age);
     }

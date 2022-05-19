@@ -2,6 +2,7 @@ public abstract class People {
     private String name;
     private String surname;
     private int age;
+    public abstract void ask();
 
     public void speak(){
         System.out.println("Hi!");

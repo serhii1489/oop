@@ -5,6 +5,7 @@ public class Main {
     doctor.diagnostic();
     doctor.speak();
     doctor.showInfo();
+    doctor.ask();
     Patient patient = new Patient("Sten", "Smith", 38);
     patient.setClinical_diagnosis("appendix");
     patient.showInfo();

@@ -10,6 +10,11 @@ public class Patient extends People implements Info{
         this.clinical_diagnosis = clinical_diagnosis;
     }
 
+    @Override
+    public void ask() {
+        System.out.println("what happened with myself?");
+    }
+
     public Patient(String name, String surname, int age) {
         super(name, surname, age);
     }
