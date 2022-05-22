@@ -1,5 +1,8 @@
 package rect;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class Rectangle {
     private float length;
     private float width;
@@ -13,7 +16,7 @@ public class Rectangle {
         float result = (length+width)*2;
         System.out.println(result);
     }
-
+    List list = new LinkedList();
     public Rectangle() {
         length = 3;
         width = 5;
