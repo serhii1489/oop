@@ -16,9 +16,7 @@ public class Main {
         arrRobot[2] = new RobotDancer();
 
         for (int i =0; i< arrRobot.length; i++) {
-            System.out.println();
-            System.out.println(arrRobot[i].toString());
-
+            arrRobot[i].canDo();
         }
 
     }
