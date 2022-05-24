@@ -2,8 +2,7 @@ package hw1_robot;
 
 public class CoffeRobot extends Robot{
 
-    public CoffeRobot() {
-    }
+
 
     @Override
     public void canDo() {
