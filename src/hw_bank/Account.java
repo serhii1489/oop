@@ -1,22 +1,13 @@
 package hw_bank;
 
 public class Account {
-    private String AccountOwner;
-    private int expense;
+    private User user;
 
-    public String getAccountOwner() {
-        return AccountOwner;
+    public User getUser() {
+        return user;
     }
 
-    public void setAccountOwner(String accountOwner) {
-        AccountOwner = accountOwner;
-    }
-
-    public int getExpense() {
-        return expense;
-    }
-
-    public void setExpense(int expense) {
-        this.expense = expense;
+    public void setUser(User user) {
+        this.user = user;
     }
 }
